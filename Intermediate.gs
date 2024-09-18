@@ -16,11 +16,6 @@ const EVENT = 'CAOC'; // Replace with the desired event code
 const API_USERNAME = 'your-api-username';
 const API_TOKEN = 'your-api-token';
 
-
-// API endpoint (you shouldn't need to change this if you're only pulling Qualifaction Match data)
-const API_ENDPOINT = `https://frc-api.firstinspires.org/v3.0/${YEAR}/scores/${EVENT}/Qualification`;
-
-
 // Function to fetch API data and begin to parse it
 function fetchAndParseData(endpoint, sheetName) {
   var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
