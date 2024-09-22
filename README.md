@@ -7,7 +7,7 @@ This is a proof-of-concept project intended as an educational tool. It demonstra
 
 # To begin, please [head to the Wiki](https://github.com/jaredhasenklein/FRC-API-for-Google-Sheets/wiki)
 
-There are two scripts in this repository:
+There are two tutorial scripts in this repository. Other scripts may be added, but may not contain a step-by-step tutorial.
 ### [basic.gs](https://github.com/jaredhasenklein/FRC-API-for-Google-Sheets/blob/main/Basic.gs)	([Tutorial](https://github.com/jaredhasenklein/FRC-API-for-Google-Sheets/wiki/Writing-your-first-script))	
 Learn to pull any FRC API endpoint into your Google Sheet
 
