@@ -125,7 +125,7 @@ function createProcessingsheets() {
     "=ArrayFormula({FILTER('Match Schedule'!1:1, REGEXMATCH('Match Schedule'!1:1, \"teamNumber\")),FILTER('Score Breakdown'!1:1, REGEXMATCH('Score Breakdown'!1:1, \"Robot1|Robot2|Robot3\"))})"
   );
   simplifiedSheet.getRange('C2').setFormula(
-    "=CHOOSECOLS('Match Schedule'!F2:U,1,4,7,10,13,16)"
+    "=CHOOSECOLS('Match Schedule'!F2:U,10,13,16,1,4,7)"
   );
   simplifiedSheet.getRange('I2').setFormula(
     "=CHOOSECOLS('Score Breakdown'!$A$2:$999, FILTER(MATCH(TRANSPOSE(FILTER('Score Breakdown'!1:1, REGEXMATCH('Score Breakdown'!1:1, \"Robot1|Robot2|Robot3\"))), 'Score Breakdown'!$A$1:$1, 0), ISNUMBER(MATCH(TRANSPOSE(FILTER('Score Breakdown'!1:1, REGEXMATCH('Score Breakdown'!1:1, \"Robot1|Robot2|Robot3\"))), 'Score Breakdown'!$A$1:$1, 0))))"
